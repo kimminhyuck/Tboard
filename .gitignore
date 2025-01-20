@@ -1,0 +1,19 @@
+# 공통 불필요한 파일
+node_modules/
+target/
+npm-debug.log
+yarn-error.log
+package-lock.json
+*.log
+
+# 환경 변수 파일 제외
+.env
+
+# OS 관련 파일 제외
+.DS_Store
+Thumbs.db
+
+# IDE 관련 파일 제외
+.vscode/
+.idea/
+*.iml
